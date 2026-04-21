@@ -1,72 +1,90 @@
-# stream--scrap
-📊 Data Exploration and Weather Web Scraper App
-This Streamlit-based web application allows users to upload datasets for interactive data exploration using various visualizations. It also includes a simple web scraping feature to fetch weather information for any location.
+# 📊 Stream-Scrap — Data Explorer & Weather Scraper
 
-🚀 Features
-Data Upload: Easily upload CSV files and preview your data.
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat-square&logo=streamlit)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-Scraping-green?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
 
-Interactive Visualizations:
+> A Streamlit app combining interactive CSV data exploration with live weather web scraping — built to practice data visualization and BeautifulSoup scraping in a single unified tool.
 
-Histogram
+---
 
-Box Plot
+## 📌 What This Project Does
 
-Scatter Plot
+Two tools in one app — upload any CSV for instant visual exploration, or enter any city name to scrape live weather data from the web.
 
-Web Scraping:
+---
 
-Enter any location to get current weather information scraped from weather-forecast.com.
+## ✨ Features
 
-📁 File Structure
-css
-Copy
-Edit
-📦your-project-folder/
- ┣ 📜app.py         ← Main Streamlit app file (your current code)
- ┗ 📜README.md      ← This file
-🔧 How to Run the App
-Install Required Packages:
+- 📂 CSV upload with instant data preview
+- 📈 Interactive visualizations — Histogram, Box Plot, Scatter Plot
+- 🌐 Live weather scraping for any location via BeautifulSoup
+- 🧭 Multi-page Streamlit layout
 
-bash
-Copy
-Edit
+---
+
+## 🛠️ Tech Stack
+
+| Library | Purpose |
+|---------|---------|
+| Streamlit | UI & multi-page app |
+| Pandas | Data handling |
+| Matplotlib, Seaborn | Visualizations |
+| BeautifulSoup, Requests | Web scraping |
+
+---
+
+## 📂 Project Structure
+
+```
+stream-scrap/
+├── app.py        # Main Streamlit app
+└── README.md
+```
+
+---
+
+## 🚀 Setup & Run
+
+```bash
+# Clone the repo
+git clone https://github.com/AshishChaubey2003/stream--scrap.git
+cd stream--scrap
+
+# Install dependencies
 pip install streamlit pandas matplotlib seaborn beautifulsoup4 requests
-Run the App:
 
-bash
-Copy
-Edit
+# Run the app
 streamlit run app.py
-🧪 Usage
-Navigate to the Data Upload page to upload your .csv file.
+```
 
-Head to the Visualizations tab to explore your data interactively.
+---
 
-Use the Web Scraping page to check weather updates for any location by typing its name.
+## 🧪 Usage
 
-🌐 Example Weather Query
-Input: New York
-Output: "The current weather in New York is: Partly cloudy and warm..."
+1. **Data Upload page** — upload any `.csv` file and preview it
+2. **Visualizations tab** — explore data with histogram, boxplot, scatter
+3. **Web Scraping page** — enter any city name to get current weather
 
-📸 Screenshots (Optional)
-You can include screenshots showing:
+---
 
-Data upload interface
+## 🚀 Roadmap
 
-Example charts
+- [ ] Add more chart types — correlation heatmap, line chart
+- [ ] Export visualizations as PNG
+- [ ] Replace scraping with OpenWeatherMap API for reliability
 
-Weather scraping result
+---
 
-🛠️ Tech Stack
-Frontend: Streamlit
+## 📄 License
 
-Visualization: Matplotlib, Seaborn
+MIT License — open source and free to use.
 
-Web Scraping: BeautifulSoup, Requests
+---
 
-Data Handling: Pandas
-
-👨‍💻 Author
-Ashish Kumar Chaubey
-B.Tech CSE | Shri Ramswaroop Memorial University
-Passionate about Data Science, Machine Learning & Data Engineering.
+<p align="center">Built by <a href="https://github.com/AshishChaubey2003">Ashish Kumar Chaubey</a> — B.Tech CSE 2025 | Lucknow, India</p>
+<p align="center">
+  <a href="https://www.linkedin.com/in/ashishchaubey2dec/">LinkedIn</a> •
+  <a href="mailto:sashishchaubey1234@gmail.com">Email</a>
+</p>
